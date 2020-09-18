@@ -85,10 +85,3 @@ spec:
       containers:
         - image: httpd
           name: httpd-deployment
-          resources:
-            limits:
-              cpu: 2000m
-              memory: 512Mi
-            requests:
-              cpu: 100m
-              memory: 64Mi
