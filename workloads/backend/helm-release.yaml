@@ -1,0 +1,10 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: nginx-release
+spec:
+  releaseName: nginx
+  chart:
+    git: https://github.com/ArunaLakmal/helm-repo.git
+    path: charts/nginx
+    ref: master
